@@ -15,6 +15,16 @@
 </head>
 <body>
     <script type="text/javascript">
+	
+	function grabFirstLetter(word){
+		first_letter = word[0]
+		return(first_letter)
+	}
+	
+	function grabLastLetter(word){
+		last_letter = word.slice(-1);
+		return(last_letter)
+	}
 
     if ((grabFirstLetter("Shane") == "S") && (grabLastLetter("Roger") == "r")){
         var comment = "EXERCISE COMPLETED";
