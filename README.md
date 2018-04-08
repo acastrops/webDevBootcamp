@@ -53,3 +53,7 @@ Beyond that?
 Go wild! You learned a lot of stuff today, so just see what you can do. Link to other HTML pages, add custom images.
 
 At the end, screenshot it for Professor Crow and send that screenshot along with the repo link. 
+
+Screenshot:
+
+![personal](https://github.com/acastrops/webDevBootcamp/blob/master/Section4_PersonalWebsite/screenshot.PNG?raw=true)
