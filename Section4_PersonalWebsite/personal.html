@@ -1,16 +1,56 @@
-<!DOCTYPE HTML>
-    <html>
-        <head>
-            <title>[Your Name]'s Personal Website</title>
-            <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
-        </head>
-        <body>
-            <h1>Looking pretty boring here... wish I had some CSS</h1>
-            <p>D3 Has been loaded into this page from a CDN.</p>
-			<script>
-				d3.select("body")
-					.append("p")
-					.text("Adriana's first attempt at a D3 object.")
-			</script>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+	<head>
+	  <link rel="stylesheet" type="text/css" href="90s.css">
+      <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+	</head>
+  
+  <body>
+		<div class="body-wrapper">
+		  <header>
+			<h1 class="title text-centre">SOLO Jazzcup pattern</h1>
+			<div class="picheader">
+			  <img src="https://i.redditmedia.com/a8pSwsZhSr8JOoukF8sTbBpBoYAeY2PqW_eWvT2BwZs.jpg?w=1024&s=c202b34f292faf9ea6b536294226cdd4" alt="Header Image" />
+			</div>
+		  <nav role='navigation'>
+			<ul>
+			  <li><a href="#">What?</a></li>
+			  <li><a href="#">Really?</a></li>
+			  <li><a href="#">Yep</a></li>
+			</ul>
+		  </nav>	
+		  </header>
+		  <main>
+			<article>
+			  <h1 class="title">What?</h1>
+			  	<script>
+					d3.select("article")
+						.append("p")
+						.text("The Solo Jazz Pattern is the name given to an iconic blue, purple and white sketch pattern found on a type of waxed paper cup manufactured at first by Sweetheart Cup Company, beginning in 1992, and later acquired by the Solo Cup Company in 2004. The pattern, which has a long-standing fan base online, rose to mainstream popularity during a Reddit campaign to find its designer in 2015.")
+				</script>
+			</article>
+				<article>
+			  <h2 class="title">Really?</h2>
+			  <p>Did I really make an entire page for this purpose? </p>
+			  <h3> <i> What's the point? </i> </h3>
+			  <p>None. Is there really anything more 90s than this? Look at all this cool HTML5(!), custom CSS and off-centered header picture. I can already hear the <a href="https://www.youtube.com/watch?v=gsNaR6FRuO0"> dial-up tone</a>.</p>
+			  <p> Now, all we are missing is a low resolution .gif:</p>
+			  </article>
+		  </main>
+		  <aside>
+				<article>
+					<h3 class="title">Yep</h3>
+			  <p>   <IMG SRC="http://i.imgur.com/OwGttDY.gif"> </p>
+			  <p> Enjoy! Template (with no .d3) was found <a href="https://codepen.io/Puika/full/qvunr"> here</a>.</p>
+				</article>
+<!-- 				<article>
+				  <h3 class="title">You like this?</h3>
+				  <p> Stuff </p>
+				</article> -->
+		  </aside>
+		  <footer>
+			<h3 class="title"> <center> <small> Data Visualization's "What-Not-To-Do Lab: The 90s and D3", Spring 2018 </small> </center> </h3>
+		  </footer>
+		</div>
+	</body>
+</html>
