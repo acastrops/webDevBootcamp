@@ -1,22 +1,31 @@
 body {
-	background-color: #FFD6DC;
+	background-color: #FFD6DC; /* Exercise 1 */
+	font-family: Arial; /* Exercise 5 */
 }
 
 #graph-display {
-	background-color: #f5f5f5;
-	border-radius: 10px;
+	background-color: #f5f5f5; /* Exercise 2: off-white graph and header */
+	border-radius: 10px; /* Exercise 2: rounding corners of graph */
 }
 
 .well {
-	border-radius: 10px;
+	border-radius: 10px; /* Exercise 2: form label rounded corners */
 	
 }
 
 form {
-	font-family: Georgia;
+	font-family: Georgia; /* Exercise 3 */
 }
 
 .checkbox {
-	display: none;
+	display: none; /* Exercise 4 */
 }
 
+.zoom {
+    transition: transform .2s; /* Extra */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* Extra */
+}
